@@ -1,0 +1,284 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{ 
+   background-color: #f5f5f5;  
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 20px; 
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.nav-links{
+   display: flex;
+   gap: 30px;
+}
+.nav-links li{
+   list-style: none;
+}
+.nav-links a{
+   text-decoration: none;
+   color: #000;
+   font-size: 20px;
+}
+.container{
+    height: 270px;
+    width: 100%;
+    background-image: url('../Images/sunset.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*.img{
+    height: 20%;
+    width: 20%;
+} */
+ .text-holder{
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .header{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    justify-self: center;
+    height: 100px;
+    font-size: 500%;
+    line-height: 250px;
+ } 
+ /* h1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    justify-self: center;
+    height: 100px; */
+
+ .flex{
+    display: flex;
+    gap: 20px;
+    width:90%; 
+    margin:auto;
+ }
+ .flex-item{
+    height: 200px;
+    width: 100%;
+ }
+ h2{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    justify-self: center; 
+    line-height: -15%;
+ }
+ p{
+    margin: 10px;
+ }
+ .col{
+   /* height: 400px; */
+   width: 33.3%;
+   padding: 20px;
+   border: 1px solid #000;
+   border-radius: 10px;
+ }
+ .bg-1{
+    background-image: url("../Images/lake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .bg-2{
+    background-image: url("https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .bg-3{
+   background-image: url("https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+ }
+ .btn-holder{
+   display: flex;
+   justify-content: end;
+ }
+ .btn-holder button{
+   background-color: #000;
+   color: #fff;
+   border: none;
+   padding: 3px 10px;
+   font-size: 20px;
+   cursor: pointer;
+   border-radius: 2px;
+ }
+ .text{
+   margin: 30px 0;
+   height: 120px;
+ }
+ .text h2{
+   font-weight: 400;
+   font-family: sans-serif;
+   margin-bottom: 10px;
+ }
+ .text p{
+   font-style: normal;
+   color: #333;
+ }
+ .container2{
+   height: 400px;
+   width: 100%;
+   background-image: url("https://images.pexels.com/photos/4937996/pexels-photo-4937996.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 50px;
+}
+.overlay{
+   width: 100%;
+   height: 400px;
+   background-color: rgba(0, 0, 0, 0.422);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-family: sans-serif;
+   text-align: center;
+}
+.row{
+  width: 50%;
+  margin: auto;
+  display: flex; 
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.col-item{
+   height: 300px;
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   font-family: sans-serif;
+   text-align: center;
+}
+.bg-4{
+   background-image: url("https://images.pexels.com/photos/2529375/pexels-photo-2529375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.bg-5{
+   background-image: url("https://images.pexels.com/photos/4720502/pexels-photo-4720502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.mt{
+   margin-top: 70px;
+}
+footer{
+   height: 300px;
+   background-color: #333;
+   margin-top: 40px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   color: #fff;
+   padding: 0 40px;
+}
+.foot{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.foot li{
+   list-style: none;
+}
+.foot a{
+   text-decoration: none;
+   color: white;
+}
+.copy{
+   text-align: center;
+   padding: 10px 0;
+}
+.line{
+   border-left: .8px solid white;
+   border-right: .8px solid white;
+   padding: 0 20px;
+
+}
+/* .content{
+   height: 250px; */
+/* } */ 
+.contact{
+   display: flex;
+}
+.contact-item{
+   height: 100vh;
+   width: 50%;
+}
+.bg-6{
+   background-image: url("https://images.pexels.com/photos/3369569/pexels-photo-3369569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+}
+.form{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+form{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+form button{
+   background-color: #000;
+   color: white;
+   border: none;
+   padding: 10px 10px;
+   font-size: 10px;
+   cursor: pointer;
+   border-radius: 2px;
+}
+form input{
+   padding: 10px;
+   width: 300px;
+   outline: none;
+}
+form textarea{
+   resize: none;
+   outline: none;
+   padding: 10px;
+   height: 100px;
+}
+.form h1{
+   font-size: 30px;
+   font-weight: 400;
+   font-family: sans-serif;
+   margin-bottom: 20px;
+}
